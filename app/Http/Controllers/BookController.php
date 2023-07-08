@@ -12,11 +12,11 @@ class BookController extends Controller
     public function index()
     {
         $book = Book::all();
-        return view('index', compact('book'));
+        return view('home', compact('book'));
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a new resource.   
      */
     public function create()
     {

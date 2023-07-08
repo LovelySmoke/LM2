@@ -30,10 +30,10 @@
               <input type="text" class="form-control" name="name" value="{{ $book->name }}"/>
           </div>
           <div class="form-group">
-              <label for="author">Email</label>
+              <label for="author">Author</label>
               <input type="text" class="form-control" name="author" value="{{ $book->author }}"/>
           </div>
-          <button type="submit" class="btn btn-block btn-danger">Update Book</button>
+          <button type="submit" class="btn btn-block btn-primary">Update Book</button>
       </form>
   </div>
 </div>

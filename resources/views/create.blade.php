@@ -10,7 +10,7 @@
 </style>
 <div class="card push-top">
   <div class="card-header">
-    Add Book
+    Create Book
   </div>
   <div class="card-body">
     @if ($errors->any())
@@ -32,7 +32,7 @@
               <label for="author">Author</label>
               <input type="text" class="form-control" name="author"/>
             </div>
-          <button type="submit" class="btn btn-block btn-danger">Create Book</button>
+          <button type="submit" class="btn btn-block btn-primary">Create Book</button>
       </form>
   </div>
 </div>
